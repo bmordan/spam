@@ -1,0 +1,19 @@
+<head>
+  <title>spam</title>
+</head>
+
+<body>
+  {{>spam}}
+</body>
+
+<template name="spam">
+  {{#each ticks}}
+    {{>tick}}
+  {{/each}}
+</template>
+
+<template name="tick">
+  <div class="spam">
+    {{ts}}
+  </div>
+</template>
