@@ -4,9 +4,6 @@ Router.route('/', function () {
 Router.route('/classic', function () {
   this.render('classic')
 })
-Router.route('/singleton', function () {
-  this.render('singleton')
-})
 Router.route('/famous', function () {
   this.render('famous')
 })
