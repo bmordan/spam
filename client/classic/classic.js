@@ -1,8 +1,3 @@
-Template.classic.helpers({
-  ticks: function () {
-    return Spam.find().fetch()
-  }
-})
 Template.tick.helpers({
   tocks: function (id) {
     var deg = ['rotate(-15deg)','rotate(15deg)']
