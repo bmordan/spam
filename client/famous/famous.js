@@ -1,5 +1,6 @@
+var context = famous.core.Engine.createContext()
+
 Template.surface.rendered = function () {
-  var context = famous.core.Engine.createContext()
   var surface = new famous.core.Surface({
     size: [50,50],
     classes: ['spam']
