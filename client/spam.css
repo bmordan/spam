@@ -12,6 +12,9 @@ body{
   vertical-align: middle;
   display: inline-block;
   background-color: yellow;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    -1px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         -1px 3px 5px 0px rgba(50, 50, 50, 0.75);
 }
 #single {
   width: 400px;
